@@ -8,6 +8,9 @@ html {
 img {
     padding: 10px;
     border: solid 3px blue;
+    
+    width: 120px;
+    height: 210px;
 }
 
 th {
