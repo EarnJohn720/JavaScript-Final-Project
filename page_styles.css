@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+html {
+    color: white;
+    background-color: #1c87c9;
+}
+
+img {
+    padding: 10px;
+    border: solid 3px blue;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    width: 600px;
+}
+
+table, th, td {
+    font-weight: normal;
+    background-color: lightblue;
+    color: black;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px
+}
+
+th:first-of-type {
+    font-weight: bold; 
+    text-align: center;
+}
+
+
+.center {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.listPad {
+    padding-left: 10px;
+}
+
+caption {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 0, 0)
+}
